@@ -1,0 +1,61 @@
+.form-group {
+    margin-top: 20px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: teal;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(202, 196, 196);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: rgb(135, 135, 212);
+}
+
+.button:active {
+    background-color: teal;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#img {
+    object-fit: fill;
+    height: 500px;
+    width: 500px;
+}
+#container
+{
+    margin-right: 180px;
+    text-align: center;
+}
+.prev
+{
+    display: flex;
+}
+.next
+{
+    display: flex;
+    
+}
+#left-arr
+{
+    margin-top: 180px;
+    margin-left: 100px;
+    float: left;
+}
+#right-arr
+{
+    margin-top: -310px;
+    margin-right: 100px;
+    float: right;
+}

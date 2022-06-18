@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./slideshow.css">
+</head>
+<body>
+    
+    <div class="form-group">
+        <button class="button" onclick="start()">Start</button>
+        <button class="button" onclick="pause()">Pause</button>
+    </div>
+    <div>
+        <div id="left-arr">
+            <button class="button prev" onclick="prev()">
+                <svg width="32" height="32" class="__HN4" viewBox="0 0 32 32" version="1.1" aria-hidden="false"><path d="M20.6667 24.6666l-2 2L8 16 18.6667 5.3333l2 2L12 16l8.6667 8.6666z"></path></svg>
+            </button>
+        </div>
+        <div id="container">
+            <img src="" alt="" id="img">
+        </div>
+        <div id="right-arr">
+            <button class="button next" onclick="next()">
+                <svg width="32" height="32" class="__HN4" viewBox="0 0 32 32" version="1.1" aria-hidden="false"><path d="M11.3333 7.3333l2-2L24 16 13.3333 26.6666l-2-2L20 16l-8.6667-8.6667z"></path></svg>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./slideshow.js"></script>
